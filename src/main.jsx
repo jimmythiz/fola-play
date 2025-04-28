@@ -8,7 +8,7 @@ import PlayerContextProvider from "./Components/PlayerContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/fola-play/">
     <SearchProvider>
       <PlayerContextProvider>
       <App />

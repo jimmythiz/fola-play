@@ -25,7 +25,7 @@ const Display = () => {
         }
     },)
     return ( 
-        <div ref={clickref} className="w-[100%] m-2 pt-6 rounded bg-[121212] text-white overflow-auto lg:w-[75%] lg:ml-0">
+        <div ref={clickref} className="w-[100%] m-0 pt-6 rounded bg-[121212] text-white overflow-auto lg:w-[75%] lg:ml-0">
             <Routes>
                 <Route path="/" element={<HomeDisplay/>}/>
                 <Route path='/album/:id' element={<DisplayAlbum/>}/>
